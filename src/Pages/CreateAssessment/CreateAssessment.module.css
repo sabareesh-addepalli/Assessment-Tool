@@ -1,0 +1,70 @@
+.container {
+    background-color: whitesmoke;
+    min-height: calc(100vh - 64px);
+    display: flex;
+}
+
+.headerContainer {
+    width: 25%;
+    padding: 20px;
+    min-height: calc(100vh - 64px);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.assessmentInput {
+    width: 100%;
+    margin-bottom: 15px!important;
+}
+
+.createBtn {
+    margin-right: 15px !important;
+}
+
+.questionsContainer {
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100vh - 120px);
+}
+
+.questionListContainer {
+    padding: 20px;
+}
+
+.addQuestionBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.addQuestionBtn button {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.questionWrapper {
+    padding: 15px;
+    position: relative;
+}
+
+.footerActions {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    text-align: end;
+    width: calc(100vw - 20%);
+    background-color: lightgrey;
+}
+
+.closeQuestionBtn {
+    position: absolute !important;
+    top: -20px;
+    right: -20px;
+}
+.validateCheckbox{
+    display: flex;
+    align-items: center;
+}
+.infoIcon{
+    margin-left: 10px;
+}

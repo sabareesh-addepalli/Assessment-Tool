@@ -1,0 +1,15 @@
+.questionInput{
+    width: 100%;
+    margin-bottom: 15px!important;
+}
+.addNewOption{
+    margin-top: 15px!important;
+}
+.editOption{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.optionContainer{
+    display: flex;
+    align-items: center;
+}
